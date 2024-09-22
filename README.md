@@ -27,7 +27,7 @@ python -m spacy download pt_core_news_md
 
 #### 2. JSON - generate_json.py
 
-* linha 15 (range(**0, 250**)): determina os índices (**mín,max**) dos arquivos a serem utilizados.
+* linha 15 (range(**0, 200**)): determina os índices (**mín,max**) dos arquivos a serem utilizados.
 *  linha 28 './json/**clin_data_0_200.json**': determina o nome do arquivo json a ser salvo.
 
 ```python
